@@ -1,7 +1,9 @@
-import {  ProductCard } from '../components/ProductCard';
-import { ProductButtons } from "../components/ProductButtons";
-import { ProductImage } from "../components/ProductImage";
-import { ProductTitle } from "../components/ProductTitle";
+// import {  ProductCard } from '../components/ProductCard';
+// import { ProductButtons } from "../components/ProductButtons";
+// import { ProductImage } from "../components/ProductImage";
+// import { ProductTitle } from "../components/ProductTitle";
+
+import { ProductCard, ProductButtons, ProductImage, ProductTitle } from "../components";
 
 const product = {
   id: '1',
@@ -26,11 +28,11 @@ export const ShoppingPage = () => {
             <ProductButtons />
           </ProductCard>          
 
-          {/* <ProductCard product ={ product } >            
+          <ProductCard product ={ product } >            
             <ProductCard.Image  />
             <ProductCard.Title  />
             <ProductCard.Buttons />
-          </ProductCard> */}
+          </ProductCard>
 
 
         </div>
