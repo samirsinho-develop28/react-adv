@@ -1,7 +1,8 @@
 import {  useContext } from "react";
 import { ProductContext } from "./ProductCard";
-import noImage from "../assets/no-image.jpg";
+
 import styles from '../styles/styles.module.css';
+import noImage from "../assets/no-image.jpg";
 
 
 export interface PropsImage {
